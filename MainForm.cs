@@ -50,8 +50,8 @@ namespace ArkaneSystems.MouseJiggle
 
         private void cmdAbout_Click (object sender, EventArgs e)
         {
-            using (var a = new AboutBox ())
-                a.ShowDialog () ;
+           // using (var a = new AboutBox ())
+            //    a.ShowDialog () ;
         }
 
         private void MainForm_Load (object sender, EventArgs e)

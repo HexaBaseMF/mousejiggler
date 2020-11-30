@@ -80,7 +80,7 @@ namespace ArkaneSystems.MouseJiggle
             // 
             // cmdToTray
             // 
-            this.cmdToTray.Image = ((System.Drawing.Image)(resources.GetObject("cmdToTray.Image")));
+            //this.cmdToTray.Image = ((System.Drawing.Image)(resources.GetObject("cmdToTray.Image")));
             this.cmdToTray.Location = new System.Drawing.Point(111, 32);
             this.cmdToTray.Name = "cmdToTray";
             this.cmdToTray.Size = new System.Drawing.Size(33, 23);
@@ -90,7 +90,7 @@ namespace ArkaneSystems.MouseJiggle
             // 
             // nifMin
             // 
-            this.nifMin.Icon = ((System.Drawing.Icon)(resources.GetObject("nifMin.Icon")));
+            //this.nifMin.Icon = ((System.Drawing.Icon)(resources.GetObject("nifMin.Icon")));
             this.nifMin.Text = "Mouse Jiggler";
             this.nifMin.DoubleClick += new System.EventHandler(this.nifMin_DoubleClick);
             // 
@@ -132,7 +132,7 @@ namespace ArkaneSystems.MouseJiggle
             this.Controls.Add(this.cmdAbout);
             this.Controls.Add(this.cbEnabled);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
